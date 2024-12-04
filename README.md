@@ -24,7 +24,7 @@
 </head>
 <body>
     <video autoplay loop muted>
-        <source src="tu-video.mp4" type="video/mp4">
+        <source src="video.mp4" type="video/mp4">
         Tu navegador no soporta la etiqueta de video.
     </video>
 </body>
