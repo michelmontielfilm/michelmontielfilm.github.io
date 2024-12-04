@@ -1,62 +1,40 @@
-/* styles.css */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
-}
-
-header {
-    text-align: center;
-    background-color: #000;
-    color: #fff;
-    padding: 20px 10px;
-}
-
-header h1 {
-    font-size: 2.5rem;
-    margin: 0;
-}
-
-header h2 {
-    font-size: 1.5rem;
-    margin: 5px 0 0;
-}
-
-#projects {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    padding: 20px;
-}
-
-.project {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-#about {
-    background-color: #fff;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-footer {
-    text-align: center;
-    background-color: #000;
-    color: #fff;
-    padding: 10px;
-}
-
-footer a {
-    color: #00f;
-    text-decoration: none;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Michel Montiel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>PORTFOLIO 2025</h1>
+        <h2>Michel Montiel</h2>
+    </header>
+    <section id="projects">
+        <article class="project">
+            <h3>Project #1</h3>
+        </article>
+        <article class="project">
+            <h3>Project #2</h3>
+        </article>
+        <article class="project">
+            <h3>Project #3</h3>
+        </article>
+        <article class="project">
+            <h3>Project #4</h3>
+        </article>
+        <article class="project">
+            <h3>Project #5</h3>
+        </article>
+    </section>
+    <section id="about">
+        <h2>Introducing myself as a Director of Photography</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut accumsan ultricies diam, in rutrum arcu interdum quis...</p>
+    </section>
+    <footer>
+        <p>Thank You</p>
+        <p><a href="https://michel-montiel.com">MICHEL-MONTIEL.COM</a></p>
+    </footer>
+</body>
+</html>
